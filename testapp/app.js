@@ -18,7 +18,7 @@ var chapters = [{
 MongoClient.connect(connectionUrl, function(err, client) {
 
   console.log("Connected correctly to server");
-  //
+  //3.x
   var db = client.db('myproject');
 
   // Get some collection
